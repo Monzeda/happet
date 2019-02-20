@@ -1,0 +1,138 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.navegation {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  z-index: 9999;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+.navegation .logo {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.navegation button {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #2a405e;
+  display: inline-block;
+  background-color: #2a405e;
+  color: #f9cb6f;
+  padding: 0 20px;
+}
+.navegation button:hover {
+  background-color: white;
+  
+}
+.navegation ul {
+  list-style: none;
+  width: 400px;
+  height: 70px;
+  display: inline-block;
+  margin-left: 3%;
+}
+.navegation ul:nth-child(2) {
+  float: right;
+  margin-top: 30px;
+}
+
+.navegation ul li {
+  display: inline-block;
+  padding: 0 5%;
+  cursor: pointer;
+}
+.navegation a {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.reservas-banner {
+height: 100%;
+margin: auto;
+}
+.navegation a.carrito {
+    right: 65px;
+}
+.secciones {
+  width: 50px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.reservas {
+  background-color: #F5F5F5;
+  background-image: url(assets/dopetimg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(.4);
+}
+.salud {
+  background-color: blanchedalmond;
+  background-image: url(assets/healthpetimg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.filter-yellow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 202, 96, 0.77);
+}
+.social {
+  background-color: blanchedalmond;
+  background-image: url(assets/socialimg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.filter-green {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(143, 199, 178, 0.77);
+}
+.tienda {
+  background-color: #868686;
+  background-image: url(assets/shopetimg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.filter-blue {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(69, 79, 103, 0.77)
+}
+
+.ayuda {
+  background-color: rgba(112, 60, 200, 0.3);
+  background-image: url(assets/helpet.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.filter-gray {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 97, 103, 0.77)
+}
+.activo {
+  width: calc(100% - 220px);
+}
